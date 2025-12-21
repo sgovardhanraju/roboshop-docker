@@ -1,0 +1,9 @@
+services:
+  mongodb:
+    image: mongodb:v1
+
+networks:
+  default:
+    driver: bride
+    name: roboshop
+    external: false
