@@ -6,4 +6,4 @@ networks:
   default:
     driver: bride
     name: roboshop
-    external: false
+    external: true
