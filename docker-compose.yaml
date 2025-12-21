@@ -22,7 +22,7 @@ services:
   rabbitmq:
     image: rabbitmq:3
     container_name: rabbitmq
-    vloumnes:
+    vloumes:
     - rabbitmq:/var/lib/rabbitmq
     environment:
       RABBITMQ_DEFAULT_USER: roboshop
