@@ -4,6 +4,6 @@ services:
 
 networks:
   default:
-    driver: bride
+    driver: bridge
     name: roboshop
     external: false
