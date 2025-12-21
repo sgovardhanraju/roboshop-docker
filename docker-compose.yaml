@@ -1,6 +1,7 @@
 services:
   mongodb:
     image: mongodb:v1
+    contaner-name: mongodb
 
 networks:
   default:
