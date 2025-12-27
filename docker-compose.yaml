@@ -2,7 +2,7 @@ services:
   catalogue:
     build:
       context: ./catalogue
-      docerfile: Dockerfile
+      dockerfile: Dockerfile
     image: gsurapuraju/catalogue:v1
     container_name: catalogue
     depends_on:
